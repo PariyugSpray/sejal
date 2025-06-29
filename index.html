@@ -131,8 +131,8 @@
     <div class="heart"></div>
 
     <form id="login-form">
-        <h2>Enter Your bestfriend Name</h2>
-        <input type="text" id="bestfriend-name" placeholder="Your Name">
+        <h2>Enter Your Love Name</h2>
+        <input type="text" id="love-name" placeholder="Your Name">
         <button id="submit-btn">Login</button>
     </form>
 
@@ -141,10 +141,10 @@
             event.preventDefault();
             const nameInput = document.getElementById('love-name').value.trim();
             if (nameInput.toLowerCase() === "miss beauty") {
-                alert("Welcome, My bestfirend ❤️");
+                alert("Welcome, My Love ❤️");
                 window.location.href = "main.html"; // Redirect to another page
             } else {
-                alert("You are not my bestfirend 😢");
+                alert("You are not my Love 😢");
             }
         });
 
