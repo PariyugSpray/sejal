@@ -131,7 +131,7 @@
     <div class="heart"></div>
 
     <form id="login-form">
-        <h2>Enter Your best friend Name</h2>
+        <h2>Enter Your friend Name</h2>
         <input type="text" id="best friend-name" placeholder="Your Name">
         <button id="submit-btn">Login</button>
     </form>
@@ -139,12 +139,12 @@
     <script>
         document.getElementById('submit-btn').addEventListener('click', function(event) {
             event.preventDefault();
-            const nameInput = document.getElementById('best friend-name').value.trim();
-            if (nameInput.toLowerCase() === "sejal") {
-                alert("Welcome, My best friend ❤️");
+            const nameInput = document.getElementById('friend-name').value.trim();
+            if (nameInput.toLowerCase() === "christina") {
+                alert("Welcome, My friend ❤️");
                 window.location.href = "main.html"; // Redirect to another page
             } else {
-                alert("You are not my best friend 😢");
+                alert("You are not my friend 😢");
             }
         });
 
@@ -166,3 +166,4 @@
 
 </body>
 </html>
+
